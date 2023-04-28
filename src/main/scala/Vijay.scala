@@ -4,19 +4,19 @@ object Vijay {
   def main (args:Array[String]):Unit = {
 
     var num = readInt
-    var number = num
+    var vijay = num
 
-    while(number!=1 && number!=4)
+    while(vijay!=1 && vijay!=4)
       {
-        number = isHappy(number)
+        vijay = isHappy(vijay)
       }
-      if (number==1)
+      if (vijay==1)
         {
-          println(number +" is Happy Number")
+          println(vijay +" is Happy Number")
         }
       else
         {
-          println(number+" is not Happy Number")
+          println(vijay + " is not Happy Number")
           println("Hello File")
         }
   }
